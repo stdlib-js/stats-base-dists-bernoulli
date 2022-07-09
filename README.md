@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.bernoulli;
+})();
 })();
 </script>
 ```
@@ -145,9 +147,11 @@ y = dist.pmf( 1.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( bernoulli ) );
 
+})();
 })();
 </script>
 </body>
@@ -239,31 +243,31 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/bernoulli/ctor]: https://github.com/stdlib-js/stats-base-dists-bernoulli-ctor/tree/umd
+[@stdlib/stats/base/dists/bernoulli/ctor]: https://github.com/stdlib-js/stats-base-dists-bernoulli-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/entropy]: https://github.com/stdlib-js/stats-base-dists-bernoulli-entropy/tree/umd
+[@stdlib/stats/base/dists/bernoulli/entropy]: https://github.com/stdlib-js/stats-base-dists-bernoulli-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/kurtosis]: https://github.com/stdlib-js/stats-base-dists-bernoulli-kurtosis/tree/umd
+[@stdlib/stats/base/dists/bernoulli/kurtosis]: https://github.com/stdlib-js/stats-base-dists-bernoulli-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/mean]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mean/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mean]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/median]: https://github.com/stdlib-js/stats-base-dists-bernoulli-median/tree/umd
+[@stdlib/stats/base/dists/bernoulli/median]: https://github.com/stdlib-js/stats-base-dists-bernoulli-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/mode]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mode/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mode]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/skewness]: https://github.com/stdlib-js/stats-base-dists-bernoulli-skewness/tree/umd
+[@stdlib/stats/base/dists/bernoulli/skewness]: https://github.com/stdlib-js/stats-base-dists-bernoulli-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/stdev]: https://github.com/stdlib-js/stats-base-dists-bernoulli-stdev/tree/umd
+[@stdlib/stats/base/dists/bernoulli/stdev]: https://github.com/stdlib-js/stats-base-dists-bernoulli-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/variance]: https://github.com/stdlib-js/stats-base-dists-bernoulli-variance/tree/umd
+[@stdlib/stats/base/dists/bernoulli/variance]: https://github.com/stdlib-js/stats-base-dists-bernoulli-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/cdf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-cdf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/cdf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/mgf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mgf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mgf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/pmf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-pmf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/pmf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli/quantile]: https://github.com/stdlib-js/stats-base-dists-bernoulli-quantile/tree/umd
+[@stdlib/stats/base/dists/bernoulli/quantile]: https://github.com/stdlib-js/stats-base-dists-bernoulli-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
