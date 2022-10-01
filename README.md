@@ -24,38 +24,30 @@ limitations under the License.
 
 > Bernoulli distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-bernoulli
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var bernoulli = require( 'path/to/vendor/umd/stats-base-dists-bernoulli/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.bernoulli;
-})();
-</script>
+var bernoulli = require( '@stdlib/stats-base-dists-bernoulli' );
 ```
 
 #### bernoulli
@@ -137,21 +129,11 @@ y = dist.pmf( 1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var bernoulli = require( '@stdlib/stats-base-dists-bernoulli' );
 
 console.log( objectKeys( bernoulli ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -239,31 +221,31 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/bernoulli/ctor]: https://github.com/stdlib-js/stats-base-dists-bernoulli-ctor/tree/umd
+[@stdlib/stats/base/dists/bernoulli/ctor]: https://github.com/stdlib-js/stats-base-dists-bernoulli-ctor
 
-[@stdlib/stats/base/dists/bernoulli/entropy]: https://github.com/stdlib-js/stats-base-dists-bernoulli-entropy/tree/umd
+[@stdlib/stats/base/dists/bernoulli/entropy]: https://github.com/stdlib-js/stats-base-dists-bernoulli-entropy
 
-[@stdlib/stats/base/dists/bernoulli/kurtosis]: https://github.com/stdlib-js/stats-base-dists-bernoulli-kurtosis/tree/umd
+[@stdlib/stats/base/dists/bernoulli/kurtosis]: https://github.com/stdlib-js/stats-base-dists-bernoulli-kurtosis
 
-[@stdlib/stats/base/dists/bernoulli/mean]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mean/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mean]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mean
 
-[@stdlib/stats/base/dists/bernoulli/median]: https://github.com/stdlib-js/stats-base-dists-bernoulli-median/tree/umd
+[@stdlib/stats/base/dists/bernoulli/median]: https://github.com/stdlib-js/stats-base-dists-bernoulli-median
 
-[@stdlib/stats/base/dists/bernoulli/mode]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mode/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mode]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mode
 
-[@stdlib/stats/base/dists/bernoulli/skewness]: https://github.com/stdlib-js/stats-base-dists-bernoulli-skewness/tree/umd
+[@stdlib/stats/base/dists/bernoulli/skewness]: https://github.com/stdlib-js/stats-base-dists-bernoulli-skewness
 
-[@stdlib/stats/base/dists/bernoulli/stdev]: https://github.com/stdlib-js/stats-base-dists-bernoulli-stdev/tree/umd
+[@stdlib/stats/base/dists/bernoulli/stdev]: https://github.com/stdlib-js/stats-base-dists-bernoulli-stdev
 
-[@stdlib/stats/base/dists/bernoulli/variance]: https://github.com/stdlib-js/stats-base-dists-bernoulli-variance/tree/umd
+[@stdlib/stats/base/dists/bernoulli/variance]: https://github.com/stdlib-js/stats-base-dists-bernoulli-variance
 
-[@stdlib/stats/base/dists/bernoulli/cdf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-cdf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/cdf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-cdf
 
-[@stdlib/stats/base/dists/bernoulli/mgf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mgf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/mgf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-mgf
 
-[@stdlib/stats/base/dists/bernoulli/pmf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-pmf/tree/umd
+[@stdlib/stats/base/dists/bernoulli/pmf]: https://github.com/stdlib-js/stats-base-dists-bernoulli-pmf
 
-[@stdlib/stats/base/dists/bernoulli/quantile]: https://github.com/stdlib-js/stats-base-dists-bernoulli-quantile/tree/umd
+[@stdlib/stats/base/dists/bernoulli/quantile]: https://github.com/stdlib-js/stats-base-dists-bernoulli-quantile
 
 <!-- </toc-links> -->
 
