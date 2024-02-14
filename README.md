@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-bernoulli/tags). For example,
+
+```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Bernoulli, cdf, entropy, kurtosis, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.2.0-esm/index.mjs';
+import { Bernoulli, cdf, entropy, kurtosis, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@esm/index.mjs';
 ```
 
 #### bernoulli
@@ -137,7 +142,7 @@ y = dist.pmf( 1.0 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.2.0-esm/index.mjs';
+import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@esm/index.mjs';
 
 console.log( objectKeys( bernoulli ) );
 
