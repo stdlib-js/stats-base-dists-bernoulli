@@ -4,56 +4,23 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-bernoulli-entropy-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/entropy)
-
-<details>
+## Unreleased (2025-06-02)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962)
+-   [`0a6c344`](https://github.com/stdlib-js/stdlib/commit/0a6c344b6922ed9d12900074f01c88aaf58855f1) - add C implementation for `stats/base/dists/bernoulli/mgf` [(#3981)](https://github.com/stdlib-js/stdlib/pull/3981)
+-   [`9a3b220`](https://github.com/stdlib-js/stdlib/commit/9a3b220d5b394ff83d6e486f9b10d8f398200b0f) - add C implementation for `stats/base/dists/bernoulli/median` [(#3452)](https://github.com/stdlib-js/stdlib/pull/3452)
+-   [`912f3a6`](https://github.com/stdlib-js/stdlib/commit/912f3a62fff96a395602d3606ea32b7e0fd87f7c) - add C implementation for `stats/base/dists/bernoulli/kurtosis` [(#3453)](https://github.com/stdlib-js/stdlib/pull/3453)
+-   [`b46d768`](https://github.com/stdlib-js/stdlib/commit/b46d768f6c855d86450602737872db434346d02c) - add C implementation for `stats/base/dists/bernoulli/variance` [(#3893)](https://github.com/stdlib-js/stdlib/pull/3893)
+-   [`54ea642`](https://github.com/stdlib-js/stdlib/commit/54ea64289b0660999c9a9becc440882cca91453a) - add C implementation for `stats/base/dists/bernoulli/pmf` [(#3974)](https://github.com/stdlib-js/stdlib/pull/3974)
+-   [`766b77d`](https://github.com/stdlib-js/stdlib/commit/766b77dbec2e3aee7e59d5759382baae1db229ac) - add C implementation for `stats/base/dists/bernoulli/quantile` [(#4869)](https://github.com/stdlib-js/stdlib/pull/4869)
+-   [`ae4d64e`](https://github.com/stdlib-js/stdlib/commit/ae4d64e5c3704709480e9daf7bc560163df24794) - add C implementation for `stats/base/dists/bernoulli/skewness` [(#3458)](https://github.com/stdlib-js/stdlib/pull/3458)
 -   [`08c0de6`](https://github.com/stdlib-js/stdlib/commit/08c0de6c2ff48936b0fc0e364dfd0f2c40e5083f) - add C implementation for `stats/base/dists/bernoulli/entropy` [(#3449)](https://github.com/stdlib-js/stdlib/pull/3449)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3412](https://github.com/stdlib-js/stdlib/issues/3412)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - add C implementation for `@stdlib/stats-base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683)
+-   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450)
 -   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451)
 
 </section>
@@ -62,191 +29,15 @@ This release closes the following issue:
 
 <section class="issues">
 
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3414](https://github.com/stdlib-js/stdlib/issues/3414)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3417](https://github.com/stdlib-js/stdlib/issues/3417)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-quantile-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`766b77d`](https://github.com/stdlib-js/stdlib/commit/766b77dbec2e3aee7e59d5759382baae1db229ac) - add C implementation for `stats/base/dists/bernoulli/quantile` [(#4869)](https://github.com/stdlib-js/stdlib/pull/4869)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3419](https://github.com/stdlib-js/stdlib/issues/3419)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-skewness-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ae4d64e`](https://github.com/stdlib-js/stdlib/commit/ae4d64e5c3704709480e9daf7bc560163df24794) - add C implementation for `stats/base/dists/bernoulli/skewness` [(#3458)](https://github.com/stdlib-js/stdlib/pull/3458)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3420](https://github.com/stdlib-js/stdlib/issues/3420), [#5069](https://github.com/stdlib-js/stdlib/issues/5069)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-stdev-unreleased">
-
-#### [@stdlib/stats/base/dists/bernoulli/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - add C implementation for `@stdlib/stats-base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3421](https://github.com/stdlib-js/stdlib/issues/3421)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="issues">
-
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3419](https://github.com/stdlib-js/stdlib/issues/3419), [#3420](https://github.com/stdlib-js/stdlib/issues/3420), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#5069](https://github.com/stdlib-js/stdlib/issues/5069)
+[#3411](https://github.com/stdlib-js/stdlib/issues/3411), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3413](https://github.com/stdlib-js/stdlib/issues/3413), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3415](https://github.com/stdlib-js/stdlib/issues/3415), [#3416](https://github.com/stdlib-js/stdlib/issues/3416), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3418](https://github.com/stdlib-js/stdlib/issues/3418), [#3419](https://github.com/stdlib-js/stdlib/issues/3419), [#3420](https://github.com/stdlib-js/stdlib/issues/3420), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3422](https://github.com/stdlib-js/stdlib/issues/3422), [#5069](https://github.com/stdlib-js/stdlib/issues/5069)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 7 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Karan Anand
--   Neeraj Pathak
--   Nishchay Rajput
--   Philipp Burckhardt
--   Saurabh Singh
--   Vivek Maurya
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -254,6 +45,19 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`20dd4e8`](https://github.com/stdlib-js/stdlib/commit/20dd4e891d7fac27581eecb54240ae194d6076ab) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
+-   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - **feat:** add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`0a6c344`](https://github.com/stdlib-js/stdlib/commit/0a6c344b6922ed9d12900074f01c88aaf58855f1) - **feat:** add C implementation for `stats/base/dists/bernoulli/mgf` [(#3981)](https://github.com/stdlib-js/stdlib/pull/3981) _(by Neeraj Pathak, stdlib-bot)_
+-   [`0f3d5f4`](https://github.com/stdlib-js/stdlib/commit/0f3d5f4d29ea7e98d99514a65955c27977aeff36) - **chore:** clean-up _(by Athan Reines)_
+-   [`51e3867`](https://github.com/stdlib-js/stdlib/commit/51e3867e1ab01fd1496c7dbf897e6ca8f3af47d0) - **chore:** clean-up _(by Athan Reines)_
+-   [`9a3b220`](https://github.com/stdlib-js/stdlib/commit/9a3b220d5b394ff83d6e486f9b10d8f398200b0f) - **feat:** add C implementation for `stats/base/dists/bernoulli/median` [(#3452)](https://github.com/stdlib-js/stdlib/pull/3452) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`912f3a6`](https://github.com/stdlib-js/stdlib/commit/912f3a62fff96a395602d3606ea32b7e0fd87f7c) - **feat:** add C implementation for `stats/base/dists/bernoulli/kurtosis` [(#3453)](https://github.com/stdlib-js/stdlib/pull/3453) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`7c7c52a`](https://github.com/stdlib-js/stdlib/commit/7c7c52aee744dd5e0d46f15940f5e52dd7bc8556) - **chore:** re-enable lint rule _(by Athan Reines)_
+-   [`b46d768`](https://github.com/stdlib-js/stdlib/commit/b46d768f6c855d86450602737872db434346d02c) - **feat:** add C implementation for `stats/base/dists/bernoulli/variance` [(#3893)](https://github.com/stdlib-js/stdlib/pull/3893) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`05a7000`](https://github.com/stdlib-js/stdlib/commit/05a70008553680071f010099157ea885fdfe1471) - **chore:** re-enable lint rule _(by Athan Reines)_
+-   [`54ea642`](https://github.com/stdlib-js/stdlib/commit/54ea64289b0660999c9a9becc440882cca91453a) - **feat:** add C implementation for `stats/base/dists/bernoulli/pmf` [(#3974)](https://github.com/stdlib-js/stdlib/pull/3974) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`975de6a`](https://github.com/stdlib-js/stdlib/commit/975de6ac8cf9349a047a39921ddf3f29a9b0d77e) - **docs:** replace manual `for` loop in examples [(#6280)](https://github.com/stdlib-js/stdlib/pull/6280) _(by Karan Anand)_
 -   [`766b77d`](https://github.com/stdlib-js/stdlib/commit/766b77dbec2e3aee7e59d5759382baae1db229ac) - **feat:** add C implementation for `stats/base/dists/bernoulli/quantile` [(#4869)](https://github.com/stdlib-js/stdlib/pull/4869) _(by Nishchay Rajput, Philipp Burckhardt, stdlib-bot)_
 -   [`7fc07a2`](https://github.com/stdlib-js/stdlib/commit/7fc07a2122bb9e862ae7e2237dd48096051199dd) - **docs:** fix missing section tags in various READMEs [(#5322)](https://github.com/stdlib-js/stdlib/pull/5322) _(by Saurabh Singh)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
@@ -284,6 +88,24 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 7 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+-   Neeraj Pathak
+-   Nishchay Rajput
+-   Philipp Burckhardt
+-   Saurabh Singh
+-   Vivek Maurya
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -291,26 +113,6 @@ A total of 7 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -326,6 +128,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -345,26 +159,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -380,6 +174,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -388,489 +194,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-bernoulli-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-pmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/pmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -883,18 +215,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -912,6 +232,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
