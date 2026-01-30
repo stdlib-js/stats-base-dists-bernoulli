@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-02)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -31,9 +31,9 @@
 
 ### Closed Issues
 
-A total of 13 issues were closed in this release:
+A total of 14 issues were closed in this release:
 
-[#3411](https://github.com/stdlib-js/stdlib/issues/3411), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3413](https://github.com/stdlib-js/stdlib/issues/3413), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3415](https://github.com/stdlib-js/stdlib/issues/3415), [#3416](https://github.com/stdlib-js/stdlib/issues/3416), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3418](https://github.com/stdlib-js/stdlib/issues/3418), [#3419](https://github.com/stdlib-js/stdlib/issues/3419), [#3420](https://github.com/stdlib-js/stdlib/issues/3420), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3422](https://github.com/stdlib-js/stdlib/issues/3422), [#5069](https://github.com/stdlib-js/stdlib/issues/5069)
+[#3411](https://github.com/stdlib-js/stdlib/issues/3411), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3413](https://github.com/stdlib-js/stdlib/issues/3413), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3415](https://github.com/stdlib-js/stdlib/issues/3415), [#3416](https://github.com/stdlib-js/stdlib/issues/3416), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3418](https://github.com/stdlib-js/stdlib/issues/3418), [#3419](https://github.com/stdlib-js/stdlib/issues/3419), [#3420](https://github.com/stdlib-js/stdlib/issues/3420), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3422](https://github.com/stdlib-js/stdlib/issues/3422), [#5069](https://github.com/stdlib-js/stdlib/issues/5069), [#5860](https://github.com/stdlib-js/stdlib/issues/5860)
 
 </section>
 
@@ -45,6 +45,16 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`f6e662c`](https://github.com/stdlib-js/stdlib/commit/f6e662c42b347d90ab8e7e77130e8288b979dc6f) - **bench:** update random value generation [(#9584)](https://github.com/stdlib-js/stdlib/pull/9584) _(by Harsh Yadav)_
+-   [`b1ec70f`](https://github.com/stdlib-js/stdlib/commit/b1ec70f8a9d7a4a242cc4c2d5a8076c0db9b7ff3) - **bench:** update random value generation [(#9590)](https://github.com/stdlib-js/stdlib/pull/9590) _(by Harsh Yadav)_
+-   [`e1c4c43`](https://github.com/stdlib-js/stdlib/commit/e1c4c4337a0ad754e9752546fe96ed63f51764da) - **test:** address review comments [(#9543)](https://github.com/stdlib-js/stdlib/pull/9543) _(by daksha607, Athan Reines)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`47382c3`](https://github.com/stdlib-js/stdlib/commit/47382c3cda5d0001d557f837bab70cba9da43ccc) - **chore:** fix JavaScript lint errors [(#7729)](https://github.com/stdlib-js/stdlib/pull/7729) _(by Siddhesh waje, Athan Reines)_
+-   [`5b3f1fe`](https://github.com/stdlib-js/stdlib/commit/5b3f1fe23bb75e6e6570f71420af877ca377dd76) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
 -   [`20dd4e8`](https://github.com/stdlib-js/stdlib/commit/20dd4e891d7fac27581eecb54240ae194d6076ab) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - **feat:** add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`0a6c344`](https://github.com/stdlib-js/stdlib/commit/0a6c344b6922ed9d12900074f01c88aaf58855f1) - **feat:** add C implementation for `stats/base/dists/bernoulli/mgf` [(#3981)](https://github.com/stdlib-js/stdlib/pull/3981) _(by Neeraj Pathak, stdlib-bot)_
@@ -92,15 +102,18 @@ A total of 13 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Harsh Yadav
 -   Karan Anand
 -   Neeraj Pathak
 -   Nishchay Rajput
 -   Philipp Burckhardt
 -   Saurabh Singh
+-   Siddhesh waje
 -   Vivek Maurya
+-   daksha607
 
 </section>
 
