@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@deno/mod.js';
+import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Bernoulli, cdf, entropy, kurtosis, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@deno/mod.js';
+import { Bernoulli, cdf, entropy, kurtosis, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.3.0-deno/mod.js';
 ```
 
 #### bernoulli
@@ -132,7 +132,7 @@ y = dist.pmf( 1.0 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@deno/mod.js';
+import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( bernoulli ) );
 ```
