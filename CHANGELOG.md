@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-05-02)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
+-   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
+-   [`49457c5`](https://github.com/stdlib-js/stdlib/commit/49457c5f87af9314c351e9af55b471e3f8d3422c) - **refactor:** reuse variance in `stats/base/dists/bernoulli/stdev` [(#11366)](https://github.com/stdlib-js/stdlib/pull/11366) _(by Om-A-osc)_
 -   [`ee1f1a7`](https://github.com/stdlib-js/stdlib/commit/ee1f1a7b7d7de0dba506731a05698e0bb43b2d1c) - **docs:** fix wrong section order in `stats/base/dists` and `stats/strided` READMEs _(by Philipp Burckhardt)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
@@ -25,8 +28,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Om-A-osc
 -   Philipp Burckhardt
 
 </section>
