@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-06-10)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`3c1e93d`](https://github.com/stdlib-js/stdlib/commit/3c1e93d70791ae8598c0bd192986066d665a2e9d) - **refactor:** replace `isProbability` with inline range check in `stats/base/dists/bernoulli/mgf` [(#12292)](https://github.com/stdlib-js/stdlib/pull/12292) _(by Philipp Burckhardt)_
 -   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`49457c5`](https://github.com/stdlib-js/stdlib/commit/49457c5f87af9314c351e9af55b471e3f8d3422c) - **refactor:** reuse variance in `stats/base/dists/bernoulli/stdev` [(#11366)](https://github.com/stdlib-js/stdlib/pull/11366) _(by Om-A-osc)_
@@ -28,8 +30,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
 
