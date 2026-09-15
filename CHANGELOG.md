@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-15)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`6d0ed9a`](https://github.com/stdlib-js/stdlib/commit/6d0ed9ae86c9887367af15b1d9e8970a3fb6e720) - **style:** add spaces [(#15129)](https://github.com/stdlib-js/stdlib/pull/15129) _(by Philipp Burckhardt, Athan Reines)_
+-   [`6f3dfa0`](https://github.com/stdlib-js/stdlib/commit/6f3dfa03f6bcdbc14e862f445eb31b11ecfb6244) - **test:** migrate `stats/base/dists/bernoulli/cdf` to ULP-based assertions [(#15113)](https://github.com/stdlib-js/stdlib/pull/15113) _(by Aryan kumar)_
+-   [`69174e0`](https://github.com/stdlib-js/stdlib/commit/69174e098bbc05ec4d00c0c3fabd96e9b9317770) - **test:** migrate `stats/base/dists/bernoulli/mean` to ULP-based assertions [(#14832)](https://github.com/stdlib-js/stdlib/pull/14832) _(by Aryan Sharma)_
+-   [`f70a85c`](https://github.com/stdlib-js/stdlib/commit/f70a85c8245a8e3ca65e7e8d649b37f5f050e013) - **test:** migrate `stats/base/dists/bernoulli/stdev` to ULP-based assertions [(#14522)](https://github.com/stdlib-js/stdlib/pull/14522) _(by Philipp Burckhardt)_
+-   [`017942a`](https://github.com/stdlib-js/stdlib/commit/017942a3c43b63b083de436e61df3500419950a6) - **test:** migrate `stats/base/dists/bernoulli/skewness` to ULP-based assertions [(#14391)](https://github.com/stdlib-js/stdlib/pull/14391) _(by Athan Reines)_
 -   [`4a927af`](https://github.com/stdlib-js/stdlib/commit/4a927afaffbf44d28e2ac942fb5b6cfbe1455e35) - **refactor:** rename internal variable [(#13156)](https://github.com/stdlib-js/stdlib/pull/13156) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
@@ -32,8 +37,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan Sharma
+-   Aryan kumar
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
