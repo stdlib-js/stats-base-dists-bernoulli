@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-11-02)
 
 <section class="commits">
 
@@ -12,6 +12,12 @@
 
 <details>
 
+-   [`46654b3`](https://github.com/stdlib-js/stdlib/commit/46654b3ee14a2ded19aef7ac6b8842d0b94fd601) - **test:** migrate `stats/base/dists/bernoulli/quantile` to ULP-based assertions [(#16034)](https://github.com/stdlib-js/stdlib/pull/16034) _(by Athan Reines)_
+-   [`cc13fdd`](https://github.com/stdlib-js/stdlib/commit/cc13fdde995ccedaf6ecc5f7f02ed94872aa63a2) - **test:** migrate `stats/base/dists/bernoulli/pmf` to ULP-based assertions [(#15515)](https://github.com/stdlib-js/stdlib/pull/15515) _(by Philipp Burckhardt)_
+-   [`16d985e`](https://github.com/stdlib-js/stdlib/commit/16d985e8f1381b27d29cb7d7179c4eba64233392) - **test:** migrate `stats/base/dists/bernoulli/variance` to ULP-based assertions [(#15428)](https://github.com/stdlib-js/stdlib/pull/15428) _(by Divyanshu)_
+-   [`6a9f5d8`](https://github.com/stdlib-js/stdlib/commit/6a9f5d82efd7f8d61dbaa82c022a416bdb508d3d) - **test:** migrate `stats/base/dists/bernoulli/mgf` to ULP-based testing [(#15407)](https://github.com/stdlib-js/stdlib/pull/15407) _(by Divyanshu)_
+-   [`9b89fe3`](https://github.com/stdlib-js/stdlib/commit/9b89fe37ca379de03e9156f28b57f3cb19c14190) - **test:** migrate `stats/base/dists/bernoulli/kurtosis` to ULP-based assertions [(#15372)](https://github.com/stdlib-js/stdlib/pull/15372) _(by Athan Reines)_
+-   [`28a24a0`](https://github.com/stdlib-js/stdlib/commit/28a24a0ff1e1f1a7df0d87582158f253bd7aedf3) - **test:** migrate `stats/base/dists/bernoulli/entropy` to ULP-based assertions [(#15305)](https://github.com/stdlib-js/stdlib/pull/15305) _(by Athan Reines)_
 -   [`6d0ed9a`](https://github.com/stdlib-js/stdlib/commit/6d0ed9ae86c9887367af15b1d9e8970a3fb6e720) - **style:** add spaces [(#15129)](https://github.com/stdlib-js/stdlib/pull/15129) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6f3dfa0`](https://github.com/stdlib-js/stdlib/commit/6f3dfa03f6bcdbc14e862f445eb31b11ecfb6244) - **test:** migrate `stats/base/dists/bernoulli/cdf` to ULP-based assertions [(#15113)](https://github.com/stdlib-js/stdlib/pull/15113) _(by Aryan kumar)_
 -   [`69174e0`](https://github.com/stdlib-js/stdlib/commit/69174e098bbc05ec4d00c0c3fabd96e9b9317770) - **test:** migrate `stats/base/dists/bernoulli/mean` to ULP-based assertions [(#14832)](https://github.com/stdlib-js/stdlib/pull/14832) _(by Aryan Sharma)_
@@ -37,11 +43,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan Sharma
 -   Aryan kumar
 -   Athan Reines
+-   Divyanshu
 -   Om-A-osc
 -   Philipp Burckhardt
 
